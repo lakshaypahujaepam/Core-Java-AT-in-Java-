@@ -1,0 +1,28 @@
+git - Version control system that allows developers to track changes in their code and collaborate with others
+
+github - Github is a platform that provides services just like Github repositories and provide tools to interact with them.
+
+git commands - Instructions that are used to interact with the Git version control system
+
+Git config - Before we use git we need to configure it in our desktop.
+
+commands are -
+
+# sets up Git with your name
+
+git config --global user.name "<Your-Full-Name>"
+
+# sets up Git with your email
+
+git config --global user.email "<your-email-address>"
+
+git init - To track any repository we first need to initialize it with git. And then only we can track it by committing and other commands.
+
+git clone <url of repo to be cloned> - git clone command helps to get the repository in our local machine from the remote location. and if we have permission then remote is added too. if we want we can make changes in the repository. 
+
+git status - This command helps to get the state of the repository like how many files are tracked how many files are untracked or deleted or added. It tells all the details and state of the repository.
+
+git add <file 1> <file 2> <> ... - This command at the file or multiple files to the staging area Their current version is compared to the remote repository.
+git add . - It will Add all the files which are not added till this commit.
+
+git commit "<log message>" - 
